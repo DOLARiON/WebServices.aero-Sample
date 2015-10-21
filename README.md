@@ -91,19 +91,28 @@ Content-Type: application/x-www-form-urlencoded
 {"jsonrpc":"2.0","id":1,"method":"AviaSearch","params":[{"Type":"Site","System":"Agent","Key":"XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX","UserIP":"127.0.0.1","UserUUID":""},{"Routes":[{"Departure":"MOW","Arrival":"LED","Date":"2013-03-15"},{"Departure":"LED","Arrival":"MOW","Date":"2013-03-20"}],"Logic":"Default","Class":"Econom","Travellers":{"ADT":1,"CHD":0,"INF":0}},{"Compress":"","Format":"Combined","Return":"ByTimelimit","Language":"RU","Currency":["RUB","USD","EUR"],"TimeLimit":120}]}
 ```
 
+![AviaSearch](https://raw.githubusercontent.com/ED-Group/WebServices.aero-Sample/master/screens/AviaSearch.png "AviaSearch")
+
+
 ## 2. AviaInformation
 Получение BookID бронирования.
 
 Центральная часть запроса:
 ```
 {
+	// ID результатов поиска
     "RequestID":"52a5bf68af632ced0d000013",
+    
+    // ID вариантов перелета
     "Variants":[
         "53549E96-256E-417B-BC3B-EC105FB9E937",
         "876B600E-A2E8-4FD3-A131-44AA27FCE284"
     ]
 }
 ```
+
+![AviaInformation](https://raw.githubusercontent.com/ED-Group/WebServices.aero-Sample/master/screens/AviaInformation.png "AviaInformation")
+
 
 ## 3. AviaBook
 Получение PNR.
@@ -157,6 +166,9 @@ Content-Type: application/x-www-form-urlencoded
     "Surname":"IVANOV"
 }
 ```
+
+![AviaCheck](https://raw.githubusercontent.com/ED-Group/WebServices.aero-Sample/master/screens/AviaCheck.png "AviaCheck")
+
 
 ## 5. PaymentAction
 Получение URL для переадресации пользователя в плат.шлюз.
