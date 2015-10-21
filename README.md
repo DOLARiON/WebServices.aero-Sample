@@ -3,10 +3,10 @@
 Краткий экскурс по подключению к JSON-API.<br>
 Рабочий пример представленного кода: http://sample.demo.webservices.aero/
 
-Тестовый Субагентский блок: http://agent.demo.webservices.aero/
+Тестовый Субагентский блок: http://agent.demo.webservices.aero/<br>
 Тестовый Travel Office: http://office.demo.webservices.aero/
 
-Тестовый ключ: C330CA8C-DCDF-4CA8-A5E0-F5E4E1612440
+Тестовый ключ: **C330CA8C-DCDF-4CA8-A5E0-F5E4E1612440**<br>
 WS TEST: http://ws.demo.webservices.aero/
 
 PS. На сайте: http://json.parser.online.fr можно раскодировать JSON и посмотреть массив.
