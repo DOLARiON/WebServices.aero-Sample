@@ -1,6 +1,6 @@
 # WebServices.aero-Sample
 
-Краткий экскурс по подключению к JSON-API.
+Краткий экскурс по подключению к JSON-API.<br>
 Рабочий пример представленного кода: http://sample.demo.webservices.aero/
 
 Тестовый Субагентский блок: http://agent.demo.webservices.aero/
